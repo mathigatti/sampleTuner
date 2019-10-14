@@ -7,9 +7,10 @@
   - aubio
   - scipy
   - numpy
+  - librosa
 
 ## Usage
-It is used running the main script `sampleTuner.py`, it has two parameters, the filename and the new frequency you want to convert the file (optional, 261.63 by default).
+It is used running the main script `sampleTuner.py`, you need to specify the input filename as a parameter.
 
 Usage example
 
