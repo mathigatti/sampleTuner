@@ -14,7 +14,7 @@ def noteToFreq(note):
 
 def samplePitch(filename):
     downsample = 1
-    samplerate = 44100 // downsample
+    samplerate = wavfile.read(filename)[0]
     #if len( sys.argv ) > 2: samplerate = int(sys.argv[2])
 
     win_s = 4096 // downsample # fft size
